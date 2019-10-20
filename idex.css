@@ -1,0 +1,325 @@
+/* loads custom font Staatliches  */
+@font-face {
+  font-family: "Staatliches";
+  src: url("star-jedi_[allfont.net].ttf") format("truetype");
+}
+/* @import url(http://allfont.net/allfont.css?fonts=staatliches); */
+/* css for all properties */
+html, body {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("/images/Capture.PNG");
+  color: #ff8300;
+  font-family: "Staatliches";
+}
+
+/* Big text looks awesome with this font */
+h1 {
+  font-family: 'Staatliches', arial;
+  font-size: 48px;
+}
+
+/* This is the Sponsors on the index page, thats why its called sponsorIndex */
+.SponsorIndex {
+  margin-top: 10%;
+  background-color: rgba(77, 78, 73, 0.2);
+}
+
+/* .aboutPText {
+  color: #ffffff;
+} */
+
+/*changes color of gold sponsor on the become a sponser page*/
+/* .gold {
+  color: #ffd700;
+}
+/*changes color of silver sponsor on the become a sponser page*/
+/* .silver {
+  color: #c0c0c0;
+} */
+/*changes color of bronze sponsor on the become a sponser page*/
+/* .bronze {
+  color: #cd7f32;
+} */
+/* .scholarshipsHeader {
+  margin-left: 5%;
+}
+.scholarships {
+  color: #e6e6e6;
+  margin-left: 10%;
+}
+ */
+/* .aboutMentors {
+  color: #e6e6e6;
+  margin-left: 10%;
+} */
+/* for sponsor.html */
+.sponsor {
+  text-align: left;
+}
+.sponsor p {
+  padding-left: 5%;
+  color: #e6e6e6;
+}
+
+.sponsor li {
+  padding-left: 18%;
+  color: #e6e6e6;
+  list-style-type: none;
+}
+
+.sponsor h2 {
+  color: white;
+}
+
+/* This is the navbar stuff */
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 98%;
+}
+
+.navbar li a:hover {
+  background-color: #111111;
+}
+
+/* This is the E-Ville Empire part at the very top of the page */
+.main {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  text-align: center;
+  /*background-color: #2bb5dc; */
+  color: white;
+  letter-spacing: 3px;
+}
+/* Stuff that needs to be center */
+.center {
+  text-align: center;
+}
+
+/* Footer Stuff. The links at the bottom of the page */
+footer {
+  list-style-type: none;
+  font-size: 80%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #1d1d1d;
+  margin-top: 1%;
+  line-height: 110%;
+}
+
+/* Theres colums so that you can have text different text on the same line */
+.footerColumn {
+  float: left;
+  width: 15%;
+  padding: 5px;
+}
+
+.footerColumn a {
+  color: navy;
+}
+
+/* a p {
+  color: #1d1d1d;
+} */
+/* for the footer text */
+.footerText {
+  color: navy;
+  padding-right: 0%;
+}
+
+/* makes pretty buttons */
+/*.button {
+    background-color: #1d1d1d;
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari *
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #1d1d1d;
+    color: white;
+    border: 2px solid #1d1d1d;
+}
+.button:hover {
+    background-color: #4395cd;
+    color: white;
+}
+*/
+.lispace {
+  margin: 10px 0;
+}
+"
+.lismallspace{
+  margin: 0.5px 0;
+}
+a {
+    color: #4395cd;
+}
+/* there's a column for the body as well like in the footer */
+  .column {
+  float: left;
+  width: 40%;
+  padding: 50px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  text-align: center;
+}
+img.resize{
+  max-width: 50%
+  max-height: 50%;
+}
+.column a {
+  color: #ff8300;
+}
+
+/* Awards Right Side */
+/* .awardsR {
+  white-space: nowrap;
+} */
+/* Text Awards - Puts semi-transparent layer over the whole div*/
+/*.awardText {
+  background: rgba(0, 0, 0, 0.5);
+}*/
+/* Removes the semi-transparent layer over the <p>, only one shade of grey */
+/*.awardText p {
+  background: rgba(0, 0, 0, 0);
+}*/
+
+/* Text Awards li */
+.awardText li {
+  font-size: 0.6rem;
+  line-height: 1.2em;
+}
+
+/* properties for the about text paragraph on the front page */
+p {
+  line-height: 1.2em !important;
+  color: white;
+  font-family: 'ZCOOL QingKe HuangYou';
+  /*background: rgba(0, 0, 0, 0.5);*/
+}
+
+/* Custom Font sizes, helps with moble viwing */
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.75rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+h6 {
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 480px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 16px;
+  }
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Facebook icon */
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+/* Twitter icon*/
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+/* Instagram icon*/
+.fa-instagram {
+  background: #cd486b;
+  color: white;
+}
+/* YouTube icon*/
+.fa-youtube {
+  background: #ff0000;
+  color: white;
+}
